@@ -1,0 +1,58 @@
+import type { AstronomyCatalogEntry } from '@/types'
+
+export const SOLAR_SYSTEM_OBJECTS: AstronomyCatalogEntry[] = [
+  {
+    id: 'moon',
+    name: 'Moon',
+    type: 'moon',
+    magnitude: -12.7,
+    rightAscension: 14.2,
+    declination: 0.2,
+    description: 'The Earth’s natural satellite, often bright enough to dominate the night sky.',
+  },
+  {
+    id: 'mercury',
+    name: 'Mercury',
+    type: 'planet',
+    magnitude: -0.6,
+    rightAscension: 17.2,
+    declination: -23.4,
+    description: 'A bright inner planet best seen near the horizon during twilight.',
+  },
+  {
+    id: 'venus',
+    name: 'Venus',
+    type: 'planet',
+    magnitude: -4.14,
+    rightAscension: 13.8,
+    declination: -8.5,
+    description: 'The brightest planet, often visible in the dawn or dusk sky.',
+  },
+  {
+    id: 'mars',
+    name: 'Mars',
+    type: 'planet',
+    magnitude: -1.66,
+    rightAscension: 20.1,
+    declination: 18.8,
+    description: 'The red planet is visible as a steady, reddish point of light.',
+  },
+  {
+    id: 'jupiter',
+    name: 'Jupiter',
+    type: 'planet',
+    magnitude: -2.2,
+    rightAscension: 4.5,
+    declination: 20.7,
+    description: 'A bright giant planet that can remain visible for much of the night.',
+  },
+  {
+    id: 'saturn',
+    name: 'Saturn',
+    type: 'planet',
+    magnitude: 0.46,
+    rightAscension: 9.6,
+    declination: 10.4,
+    description: 'Recognizable by its steady yellow-white glow and ring system.',
+  },
+]
