@@ -1,4 +1,4 @@
-# PROJECT TECHNICAL ANALYSIS
+link : https://zenith-57bb7.web.app
 
 ## Executive Summary
 **Zenith** is a production-ready, highly polished celestial tracking and astronomy observation application. It boasts a sophisticated frontend architecture built with **Vue 3, Pinia, and TypeScript**, integrated heavily with external space APIs (NASA, SpaceDevs, Open-Meteo) and specialized client-side astronomy libraries (`satellite.js`, `suncalc`). The backend is fully serverless, utilizing **Firebase** for Authentication, Firestore database storage, and Hosting. 
