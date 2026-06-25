@@ -281,29 +281,7 @@ graph TD
 
 ---
 
-## 17. Resume / Hackathon Assessment
 
-**Evaluator Profiles:** Senior Software Engineer / Hackathon Judge
-
-- **Architecture: 9.5/10**
-  Flawless separation of concerns. Bypassing state management anti-patterns by isolating API abstractions into dedicated services.
-- **Innovation: 9.0/10**
-  Moving complex SGP4 orbital mechanics (`satellite.js`) to the browser to calculate ISS passes is highly innovative and reduces server costs to zero.
-- **UI/UX: 9.0/10**
-  The execution of the glassmorphism theme, unified SVG iconography, and responsive design is premium and immersive.
-- **Code Quality: 9.0/10**
-  Strict TypeScript usage without `any` bypasses. Excellent error boundaries and fallback implementations.
-- **Scalability: 8.5/10**
-  Serverless Firebase coupled with client-side processing makes this globally scalable.
-- **Real-world usefulness: 8.5/10**
-  A genuine utility for amateur astronomers combining weather, passes, and planning.
-- **Cloud Integration: 8.5/10**
-  Firebase utilized perfectly for Auth and DB.
-- **AI/Astronomy integration: 9.0/10**
-  Seamlessly meshes multiple disparate space APIs into unified interfaces.
-- **Deployment: 8.5/10**
-  Automated, clean Firebase Hosting deployment.
-- **Overall Impression: 8.8/10**
 
 **Constructive Feedback**: 
 While the application is outstanding, Vite build logs indicate chunk sizes exceeding 500kb. To reach absolute perfection, heavy vendor libraries (`leaflet`, `satellite.js`) should be extracted into isolated chunks or dynamically imported upon navigation to their specific routes, ensuring the initial Dashboard load time remains under 100ms.
